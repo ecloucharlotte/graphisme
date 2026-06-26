@@ -38,7 +38,7 @@ a {
 
 
 /*
- Tous le reste est personnalisable 😃
+ Tous le reste est personnalisable 
  */
 
 /* =========================
@@ -349,6 +349,23 @@ h1, h2, h3, .logo, .stat-number, .footer-logo {
   display: flex;
   justify-content: center;
   position: relative;
+}
+
+/* Photo de la personne sur l'accueil */
+.hero-photo {
+  width: 100%;
+  max-width: 360px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 32px;
+  border: 3px solid rgba(194, 168, 120, 0.6);
+  box-shadow: var(--shadow-hover);
+  animation: floatY 6s ease-in-out infinite;
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-14px); }
 }
 
 .hero-shape {
@@ -845,6 +862,10 @@ h1, h2, h3, .logo, .stat-number, .footer-logo {
     width: 210px;
     height: 210px;
     font-size: 3rem;
+  }
+
+  .hero-photo {
+    max-width: 260px;
   }
 
   .portfolio-grid {
