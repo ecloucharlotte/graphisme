@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 50" role="img" aria-label="Nicole — Graphiste & Directrice Artistique">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dcc79f"/>
+      <stop offset="55%" stop-color="#c2a878"/>
+      <stop offset="100%" stop-color="#a8895c"/>
+    </linearGradient>
+  </defs>
+  <!-- Badge / monogramme -->
+  <rect x="3" y="5" width="40" height="40" rx="13" fill="url(#logoGrad)"/>
+  <text x="23" y="34" text-anchor="middle" font-family="Poppins, 'Segoe UI', sans-serif" font-weight="800" font-size="23" fill="#14110a">N</text>
+  <!-- Mot principal -->
+  <text x="56" y="28" font-family="Poppins, 'Segoe UI', sans-serif" font-weight="800" font-size="22" fill="#ffffff">Nicole<tspan fill="#c2a878">.</tspan></text>
+  <!-- Tagline -->
+  <text x="57" y="41" font-family="Inter, 'Segoe UI', sans-serif" font-weight="600" font-size="8" letter-spacing="3.2" fill="#c2a878">GRAPHISTE &amp; DA</text>
+</svg>
